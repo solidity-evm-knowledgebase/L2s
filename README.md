@@ -1,14 +1,20 @@
 # L2s
 
-When looking at an L2, there are 3 important criterias:
+When looking at an L2, there are 4 important criterias:
 1) Data Aspect
 2) Sequencing Layer
 3) Virtual Machine
 
 ## Data Aspect
 
-1) Data is held onchain --> Rollup
-2) Data is held offchain --> Validium
+Data Availability layer refers to how and where the rollup stores its transaction data. Ensuring data availability is critical because it guarantees that all necessary transaction data is accessible for verification and dispute resolution
+
+1) Data is held onchain (Ethereum) --> Rollup
+2) Data is held offchain (Celestia) --> Validium
+
+## Settlement Layer
+
+The settlement layer is where the final state of transactions is recorded and where disputes over transaction validity are resolved.
 
 ## Sequencing Layer
 
